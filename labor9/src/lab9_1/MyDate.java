@@ -3,7 +3,7 @@ package lab9_1;
 public class MyDate {
     private int year, month, day;
     public MyDate(int year, int month, int day) {
-        if(DateUtil.isValidDate(year,month,day)) {
+        if(DateUtil.validDate(year,month,day)) {
             this.year = year;
             this.month = month;
             this.day = day;
